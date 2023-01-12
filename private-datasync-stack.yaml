@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-Description: AWS DataSync Migration Test
+Description: AWS DataSync Migration Test for Private Testing
 Metadata:
   License:
     Description: |

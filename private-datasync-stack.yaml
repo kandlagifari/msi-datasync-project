@@ -94,6 +94,10 @@ Resources:
           FromPort: '443'
           ToPort: '443'
           CidrIp: '0.0.0.0/0'
+        - IpProtocol: tcp
+          FromPort: '1024'
+          ToPort: '1064'
+          CidrIp: '0.0.0.0/0'
 
   # We use this so we can limit access on this port to the SG
   dmSecurityGroupIngress:
